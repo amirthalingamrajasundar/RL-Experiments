@@ -117,7 +117,7 @@ class EpsilonGreedy(BanditSolver):
 class DecayingEpsilonGreedy(BanditSolver):
     """
     e-Greedy algorithm with a decaying epsilon value.
-    The epsilon decays in a stepwise fashion as specified by the assignment.
+    The epsilon decays in a stepwise fashion.
     """
 
     def __init__(self, bandit_env):
@@ -213,7 +213,7 @@ def run_experiment(solver_classes, num_runs, num_steps):
 
 def plot_results(results):
     """
-    Generates and saves separate plots for each solver (5 parts of the assignment).
+    Generates and saves separate plots for each solver.
     Each solver gets:
       1. Average Engagement Reward vs. Time
       2. Percentage of Optimal Ad Selections vs. Time
@@ -255,11 +255,11 @@ def plot_results(results):
 
 if __name__ == '__main__':
     # --- Simulation Parameters ---
-    NUM_RUNS = 2000  # As specified in the assignment [cite: 14]
+    NUM_RUNS = 2000 
     NUM_STEPS = 1000  # Number of ad selections per run
 
     # --- Strategies to Compare ---
-    # Defines the algorithms and their parameters as per the assignment [cite: 16, 17, 19, 20, 21]
+    # Defines the algorithms and their parameters
     SOLVER_CONFIG = {
         "e-greedy (e=0.1)": (EpsilonGreedy, {"epsilon": 0.1}),
         "e-greedy (e=0.2)": (EpsilonGreedy, {"epsilon": 0.2}),

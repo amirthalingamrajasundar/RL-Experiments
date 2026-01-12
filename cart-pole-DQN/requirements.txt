@@ -1,0 +1,6 @@
+numpy
+torch
+matplotlib
+tqdm
+swig
+gymnasium[box2d,other]
