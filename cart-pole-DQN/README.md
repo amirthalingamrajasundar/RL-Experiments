@@ -78,16 +78,16 @@ All methods are implemented from scratch and evaluated under identical experimen
 ## Agent Behavior (Videos)
 
 ### DQN
-![DQN](logs/videos/DQN/DQN_eval-episode-0.mp4)
+![DQN](logs/videos/DQN/DQN_eval-episode-0.gif)
 
 ### Double DQN (DDQN)
-![DDQN](logs/videos/DDQN/DDQN_eval-episode-0.mp4)
+![DDQN](logs/videos/DDQN/DDQN_eval-episode-0.gif)
 
 ### DQN + Prioritized Experience Replay
-![DQN+PER](logs/videos/DQN+PER/DQN+PER_eval-episode-0.mp4)
+![DQN+PER](logs/videos/DQN+PER/DQN+PER_eval-episode-0.gif)
 
 ### Double DQN + Prioritized Experience Replay
-![DDQN+PER](logs/videos/DDQN+PER/DDQN+PER_eval-episode-0.mp4)
+![DDQN+PER](logs/videos/DDQN+PER/DDQN+PER_eval-episode-0.gif)
 
 ---
 
